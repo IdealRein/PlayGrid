@@ -1,0 +1,9 @@
+/build/
+/CMakeFiles/
+/*.exe
+*.o
+*.obj
+*.log
+*.user
+*.vcxproj*
+*.sln
