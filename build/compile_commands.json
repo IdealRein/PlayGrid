@@ -1,0 +1,32 @@
+[
+{
+  "directory": "D:/Project/project/cplus/PlayGrid/build",
+  "command": "\"D:\\Program Files\\MinGW\\mingw64\\bin\\g++.exe\"  @CMakeFiles/PlayGrid.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PlayGrid.dir\\main.cpp.obj -c D:\\Project\\project\\cplus\\PlayGrid\\main.cpp",
+  "file": "D:/Project/project/cplus/PlayGrid/main.cpp",
+  "output": "CMakeFiles/PlayGrid.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/Project/project/cplus/PlayGrid/build",
+  "command": "\"D:\\Program Files\\MinGW\\mingw64\\bin\\g++.exe\"  @CMakeFiles/PlayGrid.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PlayGrid.dir\\src\\GomokuGame.cpp.obj -c D:\\Project\\project\\cplus\\PlayGrid\\src\\GomokuGame.cpp",
+  "file": "D:/Project/project/cplus/PlayGrid/src/GomokuGame.cpp",
+  "output": "CMakeFiles/PlayGrid.dir/src/GomokuGame.cpp.obj"
+},
+{
+  "directory": "D:/Project/project/cplus/PlayGrid/build",
+  "command": "\"D:\\Program Files\\MinGW\\mingw64\\bin\\g++.exe\"  @CMakeFiles/PlayGrid.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PlayGrid.dir\\src\\Board.cpp.obj -c D:\\Project\\project\\cplus\\PlayGrid\\src\\Board.cpp",
+  "file": "D:/Project/project/cplus/PlayGrid/src/Board.cpp",
+  "output": "CMakeFiles/PlayGrid.dir/src/Board.cpp.obj"
+},
+{
+  "directory": "D:/Project/project/cplus/PlayGrid/build",
+  "command": "\"D:\\Program Files\\MinGW\\mingw64\\bin\\g++.exe\"  @CMakeFiles/PlayGrid.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PlayGrid.dir\\src\\AI.cpp.obj -c D:\\Project\\project\\cplus\\PlayGrid\\src\\AI.cpp",
+  "file": "D:/Project/project/cplus/PlayGrid/src/AI.cpp",
+  "output": "CMakeFiles/PlayGrid.dir/src/AI.cpp.obj"
+},
+{
+  "directory": "D:/Project/project/cplus/PlayGrid/build",
+  "command": "\"D:\\Program Files\\MinGW\\mingw64\\bin\\g++.exe\"  @CMakeFiles/PlayGrid.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PlayGrid.dir\\src\\BossKey.cpp.obj -c D:\\Project\\project\\cplus\\PlayGrid\\src\\BossKey.cpp",
+  "file": "D:/Project/project/cplus/PlayGrid/src/BossKey.cpp",
+  "output": "CMakeFiles/PlayGrid.dir/src/BossKey.cpp.obj"
+}
+]
