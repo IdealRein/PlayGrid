@@ -1,3 +1,3 @@
 "D:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\PlayGrid.dir/objects.a
-"D:\Program Files\MinGW\mingw64\bin\ar.exe" qc CMakeFiles\PlayGrid.dir/objects.a @CMakeFiles\PlayGrid.dir\objects1.rsp
-"D:\Program Files\MinGW\mingw64\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\PlayGrid.dir/objects.a -Wl,--no-whole-archive -o PlayGrid.exe -Wl,--out-implib,libPlayGrid.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PlayGrid.dir\linkLibs.rsp
+"D:\Program Tools\Mingw\mingw64\bin\ar.exe" qc CMakeFiles\PlayGrid.dir/objects.a @CMakeFiles\PlayGrid.dir\objects1.rsp
+"D:\Program Tools\Mingw\mingw64\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\PlayGrid.dir/objects.a -Wl,--no-whole-archive -o PlayGrid.exe -Wl,--out-implib,libPlayGrid.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PlayGrid.dir\linkLibs.rsp
