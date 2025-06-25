@@ -1,16 +1,20 @@
-// BossKey.h - 老板键功能封装
+// BossKey.h - 老板键模块
 #ifndef BOSSKEY_H
 #define BOSSKEY_H
 
 #include "Board.h"
+#include <vector>
+#include <string>
 
 class BossKey {
-public:
-    bool toggle(Board& board);  // 检测按键并切换老板模式
-    bool is_active() const;     // 当前是否在老板模式
-
 private:
     bool active = false;
+
+public:
+    bool toggle(Board& board);                      // 切换老板键状态
+    bool is_active() const { return active; }       // 是否处于老板键模式
+    void display_fake_output();                     // 显示伪装输出
+    bool get_input_with_bosskey(int& x, int& y, Board& board);  // 带老板键监听的输入
 };
 
 #endif // BOSSKEY_H

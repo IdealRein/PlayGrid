@@ -53,10 +53,10 @@ RM = "D:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Project\project\cplus\PlayGrid
+CMAKE_SOURCE_DIR = "E:\Project\C plus\PlayGrid"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Project\project\cplus\PlayGrid\build
+CMAKE_BINARY_DIR = "E:\Project\C plus\PlayGrid\build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -84,14 +84,14 @@ clean: CMakeFiles/PlayGrid.dir/clean
 CMakeFiles/PlayGrid.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PlayGrid.dir\build.make CMakeFiles/PlayGrid.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PlayGrid.dir\build.make CMakeFiles/PlayGrid.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Project\project\cplus\PlayGrid\build\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target PlayGrid"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="E:\Project\C plus\PlayGrid\build\CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target PlayGrid"
 .PHONY : CMakeFiles/PlayGrid.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PlayGrid.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Project\project\cplus\PlayGrid\build\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Project\C plus\PlayGrid\build\CMakeFiles" 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/PlayGrid.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Project\project\cplus\PlayGrid\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Project\C plus\PlayGrid\build\CMakeFiles" 0
 .PHONY : CMakeFiles/PlayGrid.dir/rule
 
 # Convenience name for target.
@@ -101,7 +101,7 @@ PlayGrid: CMakeFiles/PlayGrid.dir/rule
 # codegen rule for target.
 CMakeFiles/PlayGrid.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PlayGrid.dir\build.make CMakeFiles/PlayGrid.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Project\project\cplus\PlayGrid\build\CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target PlayGrid"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="E:\Project\C plus\PlayGrid\build\CMakeFiles" --progress-num=1,2,3,4,5,6 "Finished codegen for target PlayGrid"
 .PHONY : CMakeFiles/PlayGrid.dir/codegen
 
 # clean rule for target.

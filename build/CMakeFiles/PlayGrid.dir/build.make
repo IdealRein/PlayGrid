@@ -52,10 +52,10 @@ RM = "D:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Project\project\cplus\PlayGrid
+CMAKE_SOURCE_DIR = "E:\Project\C plus\PlayGrid"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Project\project\cplus\PlayGrid\build
+CMAKE_BINARY_DIR = "E:\Project\C plus\PlayGrid\build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PlayGrid.dir/depend.make
@@ -73,78 +73,78 @@ CMakeFiles/PlayGrid.dir/codegen:
 
 CMakeFiles/PlayGrid.dir/main.cpp.obj: CMakeFiles/PlayGrid.dir/flags.make
 CMakeFiles/PlayGrid.dir/main.cpp.obj: CMakeFiles/PlayGrid.dir/includes_CXX.rsp
-CMakeFiles/PlayGrid.dir/main.cpp.obj: D:/Project/project/cplus/PlayGrid/main.cpp
+CMakeFiles/PlayGrid.dir/main.cpp.obj: E:/Project/C\ plus/PlayGrid/main.cpp
 CMakeFiles/PlayGrid.dir/main.cpp.obj: CMakeFiles/PlayGrid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Project\project\cplus\PlayGrid\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PlayGrid.dir/main.cpp.obj"
-	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlayGrid.dir/main.cpp.obj -MF CMakeFiles\PlayGrid.dir\main.cpp.obj.d -o CMakeFiles\PlayGrid.dir\main.cpp.obj -c D:\Project\project\cplus\PlayGrid\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\Project\C plus\PlayGrid\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PlayGrid.dir/main.cpp.obj"
+	"D:\Program Tools\Mingw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlayGrid.dir/main.cpp.obj -MF CMakeFiles\PlayGrid.dir\main.cpp.obj.d -o CMakeFiles\PlayGrid.dir\main.cpp.obj -c "E:\Project\C plus\PlayGrid\main.cpp"
 
 CMakeFiles/PlayGrid.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PlayGrid.dir/main.cpp.i"
-	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Project\project\cplus\PlayGrid\main.cpp > CMakeFiles\PlayGrid.dir\main.cpp.i
+	"D:\Program Tools\Mingw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Project\C plus\PlayGrid\main.cpp" > CMakeFiles\PlayGrid.dir\main.cpp.i
 
 CMakeFiles/PlayGrid.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PlayGrid.dir/main.cpp.s"
-	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Project\project\cplus\PlayGrid\main.cpp -o CMakeFiles\PlayGrid.dir\main.cpp.s
+	"D:\Program Tools\Mingw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Project\C plus\PlayGrid\main.cpp" -o CMakeFiles\PlayGrid.dir\main.cpp.s
 
 CMakeFiles/PlayGrid.dir/src/GomokuGame.cpp.obj: CMakeFiles/PlayGrid.dir/flags.make
 CMakeFiles/PlayGrid.dir/src/GomokuGame.cpp.obj: CMakeFiles/PlayGrid.dir/includes_CXX.rsp
-CMakeFiles/PlayGrid.dir/src/GomokuGame.cpp.obj: D:/Project/project/cplus/PlayGrid/src/GomokuGame.cpp
+CMakeFiles/PlayGrid.dir/src/GomokuGame.cpp.obj: E:/Project/C\ plus/PlayGrid/src/GomokuGame.cpp
 CMakeFiles/PlayGrid.dir/src/GomokuGame.cpp.obj: CMakeFiles/PlayGrid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Project\project\cplus\PlayGrid\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PlayGrid.dir/src/GomokuGame.cpp.obj"
-	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlayGrid.dir/src/GomokuGame.cpp.obj -MF CMakeFiles\PlayGrid.dir\src\GomokuGame.cpp.obj.d -o CMakeFiles\PlayGrid.dir\src\GomokuGame.cpp.obj -c D:\Project\project\cplus\PlayGrid\src\GomokuGame.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\Project\C plus\PlayGrid\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PlayGrid.dir/src/GomokuGame.cpp.obj"
+	"D:\Program Tools\Mingw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlayGrid.dir/src/GomokuGame.cpp.obj -MF CMakeFiles\PlayGrid.dir\src\GomokuGame.cpp.obj.d -o CMakeFiles\PlayGrid.dir\src\GomokuGame.cpp.obj -c "E:\Project\C plus\PlayGrid\src\GomokuGame.cpp"
 
 CMakeFiles/PlayGrid.dir/src/GomokuGame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PlayGrid.dir/src/GomokuGame.cpp.i"
-	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Project\project\cplus\PlayGrid\src\GomokuGame.cpp > CMakeFiles\PlayGrid.dir\src\GomokuGame.cpp.i
+	"D:\Program Tools\Mingw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Project\C plus\PlayGrid\src\GomokuGame.cpp" > CMakeFiles\PlayGrid.dir\src\GomokuGame.cpp.i
 
 CMakeFiles/PlayGrid.dir/src/GomokuGame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PlayGrid.dir/src/GomokuGame.cpp.s"
-	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Project\project\cplus\PlayGrid\src\GomokuGame.cpp -o CMakeFiles\PlayGrid.dir\src\GomokuGame.cpp.s
+	"D:\Program Tools\Mingw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Project\C plus\PlayGrid\src\GomokuGame.cpp" -o CMakeFiles\PlayGrid.dir\src\GomokuGame.cpp.s
 
 CMakeFiles/PlayGrid.dir/src/Board.cpp.obj: CMakeFiles/PlayGrid.dir/flags.make
 CMakeFiles/PlayGrid.dir/src/Board.cpp.obj: CMakeFiles/PlayGrid.dir/includes_CXX.rsp
-CMakeFiles/PlayGrid.dir/src/Board.cpp.obj: D:/Project/project/cplus/PlayGrid/src/Board.cpp
+CMakeFiles/PlayGrid.dir/src/Board.cpp.obj: E:/Project/C\ plus/PlayGrid/src/Board.cpp
 CMakeFiles/PlayGrid.dir/src/Board.cpp.obj: CMakeFiles/PlayGrid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Project\project\cplus\PlayGrid\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PlayGrid.dir/src/Board.cpp.obj"
-	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlayGrid.dir/src/Board.cpp.obj -MF CMakeFiles\PlayGrid.dir\src\Board.cpp.obj.d -o CMakeFiles\PlayGrid.dir\src\Board.cpp.obj -c D:\Project\project\cplus\PlayGrid\src\Board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\Project\C plus\PlayGrid\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PlayGrid.dir/src/Board.cpp.obj"
+	"D:\Program Tools\Mingw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlayGrid.dir/src/Board.cpp.obj -MF CMakeFiles\PlayGrid.dir\src\Board.cpp.obj.d -o CMakeFiles\PlayGrid.dir\src\Board.cpp.obj -c "E:\Project\C plus\PlayGrid\src\Board.cpp"
 
 CMakeFiles/PlayGrid.dir/src/Board.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PlayGrid.dir/src/Board.cpp.i"
-	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Project\project\cplus\PlayGrid\src\Board.cpp > CMakeFiles\PlayGrid.dir\src\Board.cpp.i
+	"D:\Program Tools\Mingw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Project\C plus\PlayGrid\src\Board.cpp" > CMakeFiles\PlayGrid.dir\src\Board.cpp.i
 
 CMakeFiles/PlayGrid.dir/src/Board.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PlayGrid.dir/src/Board.cpp.s"
-	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Project\project\cplus\PlayGrid\src\Board.cpp -o CMakeFiles\PlayGrid.dir\src\Board.cpp.s
+	"D:\Program Tools\Mingw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Project\C plus\PlayGrid\src\Board.cpp" -o CMakeFiles\PlayGrid.dir\src\Board.cpp.s
 
 CMakeFiles/PlayGrid.dir/src/AI.cpp.obj: CMakeFiles/PlayGrid.dir/flags.make
 CMakeFiles/PlayGrid.dir/src/AI.cpp.obj: CMakeFiles/PlayGrid.dir/includes_CXX.rsp
-CMakeFiles/PlayGrid.dir/src/AI.cpp.obj: D:/Project/project/cplus/PlayGrid/src/AI.cpp
+CMakeFiles/PlayGrid.dir/src/AI.cpp.obj: E:/Project/C\ plus/PlayGrid/src/AI.cpp
 CMakeFiles/PlayGrid.dir/src/AI.cpp.obj: CMakeFiles/PlayGrid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Project\project\cplus\PlayGrid\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PlayGrid.dir/src/AI.cpp.obj"
-	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlayGrid.dir/src/AI.cpp.obj -MF CMakeFiles\PlayGrid.dir\src\AI.cpp.obj.d -o CMakeFiles\PlayGrid.dir\src\AI.cpp.obj -c D:\Project\project\cplus\PlayGrid\src\AI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\Project\C plus\PlayGrid\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PlayGrid.dir/src/AI.cpp.obj"
+	"D:\Program Tools\Mingw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlayGrid.dir/src/AI.cpp.obj -MF CMakeFiles\PlayGrid.dir\src\AI.cpp.obj.d -o CMakeFiles\PlayGrid.dir\src\AI.cpp.obj -c "E:\Project\C plus\PlayGrid\src\AI.cpp"
 
 CMakeFiles/PlayGrid.dir/src/AI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PlayGrid.dir/src/AI.cpp.i"
-	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Project\project\cplus\PlayGrid\src\AI.cpp > CMakeFiles\PlayGrid.dir\src\AI.cpp.i
+	"D:\Program Tools\Mingw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Project\C plus\PlayGrid\src\AI.cpp" > CMakeFiles\PlayGrid.dir\src\AI.cpp.i
 
 CMakeFiles/PlayGrid.dir/src/AI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PlayGrid.dir/src/AI.cpp.s"
-	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Project\project\cplus\PlayGrid\src\AI.cpp -o CMakeFiles\PlayGrid.dir\src\AI.cpp.s
+	"D:\Program Tools\Mingw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Project\C plus\PlayGrid\src\AI.cpp" -o CMakeFiles\PlayGrid.dir\src\AI.cpp.s
 
 CMakeFiles/PlayGrid.dir/src/BossKey.cpp.obj: CMakeFiles/PlayGrid.dir/flags.make
 CMakeFiles/PlayGrid.dir/src/BossKey.cpp.obj: CMakeFiles/PlayGrid.dir/includes_CXX.rsp
-CMakeFiles/PlayGrid.dir/src/BossKey.cpp.obj: D:/Project/project/cplus/PlayGrid/src/BossKey.cpp
+CMakeFiles/PlayGrid.dir/src/BossKey.cpp.obj: E:/Project/C\ plus/PlayGrid/src/BossKey.cpp
 CMakeFiles/PlayGrid.dir/src/BossKey.cpp.obj: CMakeFiles/PlayGrid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Project\project\cplus\PlayGrid\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PlayGrid.dir/src/BossKey.cpp.obj"
-	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlayGrid.dir/src/BossKey.cpp.obj -MF CMakeFiles\PlayGrid.dir\src\BossKey.cpp.obj.d -o CMakeFiles\PlayGrid.dir\src\BossKey.cpp.obj -c D:\Project\project\cplus\PlayGrid\src\BossKey.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\Project\C plus\PlayGrid\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PlayGrid.dir/src/BossKey.cpp.obj"
+	"D:\Program Tools\Mingw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlayGrid.dir/src/BossKey.cpp.obj -MF CMakeFiles\PlayGrid.dir\src\BossKey.cpp.obj.d -o CMakeFiles\PlayGrid.dir\src\BossKey.cpp.obj -c "E:\Project\C plus\PlayGrid\src\BossKey.cpp"
 
 CMakeFiles/PlayGrid.dir/src/BossKey.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PlayGrid.dir/src/BossKey.cpp.i"
-	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Project\project\cplus\PlayGrid\src\BossKey.cpp > CMakeFiles\PlayGrid.dir\src\BossKey.cpp.i
+	"D:\Program Tools\Mingw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Project\C plus\PlayGrid\src\BossKey.cpp" > CMakeFiles\PlayGrid.dir\src\BossKey.cpp.i
 
 CMakeFiles/PlayGrid.dir/src/BossKey.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PlayGrid.dir/src/BossKey.cpp.s"
-	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Project\project\cplus\PlayGrid\src\BossKey.cpp -o CMakeFiles\PlayGrid.dir\src\BossKey.cpp.s
+	"D:\Program Tools\Mingw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Project\C plus\PlayGrid\src\BossKey.cpp" -o CMakeFiles\PlayGrid.dir\src\BossKey.cpp.s
 
 # Object files for target PlayGrid
 PlayGrid_OBJECTS = \
@@ -166,7 +166,7 @@ PlayGrid.exe: CMakeFiles/PlayGrid.dir/build.make
 PlayGrid.exe: CMakeFiles/PlayGrid.dir/linkLibs.rsp
 PlayGrid.exe: CMakeFiles/PlayGrid.dir/objects1.rsp
 PlayGrid.exe: CMakeFiles/PlayGrid.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Project\project\cplus\PlayGrid\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable PlayGrid.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="E:\Project\C plus\PlayGrid\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable PlayGrid.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\PlayGrid.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -178,6 +178,6 @@ CMakeFiles/PlayGrid.dir/clean:
 .PHONY : CMakeFiles/PlayGrid.dir/clean
 
 CMakeFiles/PlayGrid.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Project\project\cplus\PlayGrid D:\Project\project\cplus\PlayGrid D:\Project\project\cplus\PlayGrid\build D:\Project\project\cplus\PlayGrid\build D:\Project\project\cplus\PlayGrid\build\CMakeFiles\PlayGrid.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\Project\C plus\PlayGrid" "E:\Project\C plus\PlayGrid" "E:\Project\C plus\PlayGrid\build" "E:\Project\C plus\PlayGrid\build" "E:\Project\C plus\PlayGrid\build\CMakeFiles\PlayGrid.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/PlayGrid.dir/depend
 

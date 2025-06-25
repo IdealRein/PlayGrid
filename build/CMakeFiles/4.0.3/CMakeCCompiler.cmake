@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "D:/Program Files/MinGW/mingw64/bin/gcc.exe")
+set(CMAKE_C_COMPILER "D:/Program Tools/Mingw/mingw64/bin/gcc.exe")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "14.2.0")
@@ -23,14 +23,14 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "D:/Program Files/MinGW/mingw64/bin/ar.exe")
-set(CMAKE_C_COMPILER_AR "D:/Program Files/MinGW/mingw64/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "D:/Program Files/MinGW/mingw64/bin/ranlib.exe")
-set(CMAKE_C_COMPILER_RANLIB "D:/Program Files/MinGW/mingw64/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "D:/Program Files/MinGW/mingw64/bin/ld.exe")
+set(CMAKE_AR "D:/Program Tools/Mingw/mingw64/bin/ar.exe")
+set(CMAKE_C_COMPILER_AR "D:/Program Tools/Mingw/mingw64/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "D:/Program Tools/Mingw/mingw64/bin/ranlib.exe")
+set(CMAKE_C_COMPILER_RANLIB "D:/Program Tools/Mingw/mingw64/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "D:/Program Tools/Mingw/mingw64/bin/ld.exe")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
-set(CMAKE_C_COMPILER_LINKER "../src/gcc-14.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev1/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev1, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1420-posix-seh-ucrt-rt_v12-rev1/mingw64/bin/ld.exe")
+set(CMAKE_C_COMPILER_LINKER "../src/gcc-14.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1420-win32-seh-ucrt-rt_v12-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1420-win32-seh-ucrt-rt_v12-rev0/mingw64/bin/ld.exe")
 set(CMAKE_C_COMPILER_LINKER_ID "")
 set(CMAKE_C_COMPILER_LINKER_VERSION )
 set(CMAKE_C_COMPILER_LINKER_FRONTEND_VARIANT )
@@ -78,7 +78,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "D:/Program Files/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include;D:/Program Files/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed;D:/Program Files/MinGW/mingw64/x86_64-w64-mingw32/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "D:/Program Tools/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include;D:/Program Tools/Mingw/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed;D:/Program Tools/Mingw/mingw64/x86_64-w64-mingw32/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
